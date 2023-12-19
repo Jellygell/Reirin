@@ -14,7 +14,11 @@ class AppointmentController extends Controller
     public function showAllAppointment(Request $request)
     {
         $user = Auth::user();
-        $appointments = Appointment::where('customer_id', $user->customer_id)->get();
+        if($user){
+            $appointments = Appointment::where('customer_id', $user->customer_id)->get();
+            return view('myappointment', array_merge(compact('appointments'), ["title" => "myappointment"]));
+        }
+        $appointments = null;
         return view('myappointment', array_merge(compact('appointments'), ["title" => "myappointment"]));
     }
     public function appointmentSelected(Request $request)

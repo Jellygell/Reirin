@@ -1,6 +1,6 @@
 @extends('layouts.layout1')
 @section('container')
-<h1>BAYAR ANJING </h1>
+<h1>Booking </h1>
 
 @forelse ($allData as $ad)
     <div>

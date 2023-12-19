@@ -80,6 +80,8 @@ Route::get('/myappointment', [AppointmentController::class, 'showAllAppointment'
 Route::get('/login', [ProfileController::class, 'loginEn']);
 Route::get('/masuk', [ProfileController::class, 'loginIndo']);
 
+Route::get('/login', [ProfileController::class, 'loginEn']);
+
 Route::post('/select-service', [ServiceController::class, 'serviceSelected'])->name('select-service');
 
 Route::post('/select-appointment', [AppointmentController::class, 'appointmentSelected'])->name('select-appointment');

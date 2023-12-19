@@ -22,21 +22,21 @@ class PromoSeeder extends Seeder
                 'promo_exp' => Carbon::create(1990, 5, 15, 0, 0, 0),
                 'promo_name' => 'summer promo',
                 'promo_desc' => 'first promo',
-                'promo_img' => 'Pathtoimg' ,
+                'promo_img' => 'pic/promo1.png' ,
             ],
             [
                 'promo_id' => 'PR02',
                 'promo_exp' => Carbon::create(1990, 5, 15, 0, 0, 0),
                 'promo_name' => 'summer2 promo',
                 'promo_desc' => 'first promo',
-                'promo_img' => 'Pathtoimg', 
+                'promo_img' => 'pic/promo2.png', 
             ],
             [
                 'promo_id' => 'PR03',
                 'promo_exp' => Carbon::create(1990, 5, 15, 0, 0, 0),
                 'promo_name' => 'summer3 promo',
                 'promo_desc' => 'first promo',
-                'promo_img' => 'Pathtoimg',
+                'promo_img' => 'pic/promo3.png',
             ],
         ]);
     }

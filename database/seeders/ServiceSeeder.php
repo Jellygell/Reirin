@@ -22,7 +22,7 @@ class ServiceSeeder extends Seeder
                 'service_price' => 70000,
                 'service_duration' => 60,
                 'service_desc' => 'Deskripsi Gunting Rambut Cowo',
-                'service_img' => 'pathtoimg',
+                'service_img' => 'pic/gallery_6.png',
             ],
             [
                 'service_id' => 'S002',
@@ -30,7 +30,7 @@ class ServiceSeeder extends Seeder
                 'service_price' => 40000,
                 'service_duration' => 60,
                 'serivice_desc' => 'Deskripsi Krembat',
-                'service_img' => 'pathtoimg',
+                'service_img' => 'pic/gallery_9.png',
             ],
             [
                 'service_id' => 'S003',
@@ -38,7 +38,7 @@ class ServiceSeeder extends Seeder
                 'service_price' => 100000,
                 'service_duration' => 60,
                 'serivice_desc' => 'Deskripsi MeniPedi',
-                'service_img' => 'pathtoimg',
+                'service_img' => 'pic/gallery_1.png',
             ],
         ]);
     }
