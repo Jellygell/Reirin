@@ -13,9 +13,9 @@
       <div class="col-lg-4">
         <div class="card mb-4 border-dark">
           <div class="card-body text-center">
-            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3.webp" alt="avatar"
+            <img src="{{ $user->customer_img }}" alt="avatar"
               class="rounded-circle img-fluid" style="width: 150px;">
-            <h2 class="my-5"><strong>John Smith</strong></h2>
+            <h2 class="my-5"><strong>{{ $user->customer_name }}</strong></h2>
             <!-- <p class="text-muted mb-1">Full Stack Developer</p>
             <p class="text-muted mb-4">Bay Area, San Francisco, CA</p>
             <div class="d-flex justify-content-center mb-2">
@@ -30,19 +30,10 @@
           <div class="card-body">
             <div class="row">
               <div class="col-sm-3">
-                <h4 class="mb-0">Full Name</h4>
-              </div>
-              <div class="col-sm-9">
-                <h4 class="text-muted mb-0">: Johnatan Smith</h4>
-              </div>
-            </div>
-            <hr>
-            <div class="row">
-              <div class="col-sm-3">
                 <h4 class="mb-0">Email</h4>
               </div>
               <div class="col-sm-9">
-                <h4 class="text-muted mb-0">: example@example.com</h4>
+                <h4 class="text-muted mb-0">: {{ $user->email }}</h4>
               </div>
             </div>
             <hr>
@@ -51,7 +42,7 @@
                 <h4 class="mb-0">Phone</h4>
               </div>
               <div class="col-sm-9">
-                <h4 class="text-muted mb-0">: (097) 234-5678</h4>
+                <h4 class="text-muted mb-0">: {{ $user->customer_phone }}</h4>
               </div>
             </div>
             <hr>
@@ -60,7 +51,7 @@
                 <h4 class="mb-3">Address</h4>
               </div>
               <div class="col-sm-9">
-                <h4 class="text-muted mb-3">: Bay Area, San Francisco, CA</h4>
+                <h4 class="text-muted mb-3">: {{ $user->customer_address }}</h4>
               </div>
             </div>
           </div>

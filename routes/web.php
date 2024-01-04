@@ -32,11 +32,7 @@ Route::get('/appointment1', function () {
     ]);
 });
 
-Route::get('/editprofile', function () {
-    return view('/editprofile',[
-        "title" => "MyAppointment"
-    ]);
-});
+Route::get('/editprofile', [CustomerController::class, 'showProfile'])->name('showProfile');
 
 Route::get('/', function () {
     return view('/login',[
