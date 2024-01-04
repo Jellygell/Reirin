@@ -48,60 +48,12 @@ $user = Auth::user();
         </button>
 </div>
 
-<!-- test -->
-
-<!-- <h1 class="mt-4 mb-5"><strong>Articles</strong></h1>
-<div class="card mb-3 mt-5">
-        <img src="pic\artikel1.webp" class="card-img-top" alt="...">
-        <div class="card-body">
-                <h5 class="card-title">Apa itu Blow Dry? Ini dia segala hal yang Perlu Kamu Ketahui</h5>
-                <p class="card-text">Apa Itu Blow Dry? Apa itu blow dry adalah sesuatu pertanyaan yang kurang lebih sering ditanyakan dalam dunia tata rambut. Blow dry adalah...</p>
-                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-        </div>
-</div>
-<div class="card mt-5">
-        <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-        </div>
-        <img src="pic\banner2.png" class="card-img-bottom" alt="...">
-</div> -->
-
-
-
-
-
-<!-- <h1>Our Employee</h1>
-<div class="row row-cols-1 row-cols-md-2 g-4 " style="width: 650px;>
-        <div class="col">
-                <div class="card">
-                        <img src="pic\creator.jpg" class="card-img-top" style="width: 300px;">
-                        <div class="card-body">
-                                <h5 class="card-title">Irene Liana</h5>
-                                <p class="card-text">The founder of Reirin Salon, Irene Liana dedicated her hardwork in establishing a safe working enviournment</p>
-                        </div>
-                </div>
-        </div>
-        <div class="col">
-                <div class="card">
-                        <img src="pic\creator.jpg" class="card-img-top" style="width: 300px;" alt="...">
-                        <div class="card-body">
-                                <h5 class="card-title">Rinianti</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                </div>
-        </div>
-</div> -->
-
 <div class="text-center container py-5">
 <h1 class="mt-4 mb-5 judul display-1">Our Treatments</h1>
 <h4 class="mb-5">Kami berdedikasi untuk memberikan standar pelayanan yang optimal dengan terus meningkatkan kualitas terapis kami. Upaya terus dilakukan guna menjamin pelayanan terbaik yang dapat kami berikan.</h4>
 <div class="row row-cols-1 row-cols-md-2 g-5 mt-3">
   <div class="col">
     <div class="card border-dark align-items-center">
-      <!-- <img src="https://salonoribel.com/wp-content/uploads/2022/04/Asset-5@2x.pngp" class="card-img-top"
-        alt="Hollywood Sign on The Hill" /> -->
         <img src="pic\hair treatment.png" class="d-block w-35 mt-5" style="height: 170px" alt="...">
       <div class="card-body align-items-center">
         <h3 class="card-title text-center judul display-6">Hair Salon Treatment</h5>
@@ -112,10 +64,8 @@ $user = Auth::user();
       </div>
     </div>
   </div>
-  <div class="col">
+  <!-- <div class="col">
     <div class="card border-dark align-items-center">
-      <!-- <img src="https://salonoribel.com/wp-content/uploads/2022/04/Asset-5@2x.pngp" class="card-img-top"
-        alt="Hollywood Sign on The Hill" /> -->
         <img src="pic\body_treatment.svg" class="d-block w-35 mt-5" style="height: 170px" alt="...">
       <div class="card-body align-items-center">
         <h3 class="card-title text-center judul display-6">Body Treatment</h3>
@@ -125,11 +75,9 @@ $user = Auth::user();
         </p>
       </div>
     </div>
-  </div>
+  </div> -->
   <div class="col">
     <div class="card border-dark align-items-center">
-      <!-- <img src="https://salonoribel.com/wp-content/uploads/2022/04/Asset-5@2x.pngp" class="card-img-top"
-        alt="Hollywood Sign on The Hill" /> -->
         <img src="pic\nail_art.png" class="d-block w-35 mt-5" style="height: 170px" alt="...">
       <div class="card-body align-items-center">
         <h3 class="card-title text-center judul display-6">Nail Art</h3>
@@ -140,10 +88,8 @@ $user = Auth::user();
       </div>
     </div>
   </div>
-  <div class="col">
+  <!-- <div class="col">
     <div class="card border-dark align-items-center">
-      <!-- <img src="https://salonoribel.com/wp-content/uploads/2022/04/Asset-5@2x.pngp" class="card-img-top"
-        alt="Hollywood Sign on The Hill" /> -->
         <img src="pic\face_treatment.png" class="d-block w-35 mt-5" style="height: 170px" alt="...">
       <div class="card-body align-items-center">
         <h3 class="card-title text-center judul display-6">Face Treatment</h3>
@@ -153,7 +99,7 @@ $user = Auth::user();
         </p>
       </div>
     </div>
-  </div>
+  </div> -->
 </div>
 </div>
 
@@ -174,25 +120,8 @@ $user = Auth::user();
               <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp"
                 class="rounded-circle shadow-1-strong" width="100" height="100" />
             </div>
-            <h5 class="font-weight-bold">Putri Kusuma</h5>
+            <h4 class="font-weight-bold"><strong>Putri Kusuma</strong></h4>
             <h6 class="font-weight-bold my-3">Mahasiswi</h6>
-            <ul class="list-unstyled d-flex justify-content-center">
-              <li>
-                <i class="fas fa-star fa-sm text-info"></i>
-              </li>
-              <li>
-                <i class="fas fa-star fa-sm text-info"></i>
-              </li>
-              <li>
-                <i class="fas fa-star fa-sm text-info"></i>
-              </li>
-              <li>
-                <i class="fas fa-star fa-sm text-info"></i>
-              </li>
-              <li>
-                <i class="fas fa-star-half-alt fa-sm text-info"></i>
-              </li>
-            </ul>
             <p class="mb-2">
               <i class="fas fa-quote-left pe-2"></i>"Saya sangat puas dengan potong rambut dan creambath di Salon Reirin. Para ahli potong rambutnya sangat berbakat, dan creambath membuat rambut saya lembut dan sehat."
             </p>
@@ -206,25 +135,8 @@ $user = Auth::user();
               <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(15).webp"
                 class="rounded-circle shadow-1-strong" width="100" height="100" />
             </div>
-            <h5 class="font-weight-bold">Adinda Saraswati</h5>
+            <h4 class="font-weight-bold"><strong>Adinda Saraswati</strong></h4>
             <h6 class="font-weight-bold my-3">Guru</h6>
-            <ul class="list-unstyled d-flex justify-content-center">
-              <li>
-                <i class="fas fa-star fa-sm text-info"></i>
-              </li>
-              <li>
-                <i class="fas fa-star fa-sm text-info"></i>
-              </li>
-              <li>
-                <i class="fas fa-star fa-sm text-info"></i>
-              </li>
-              <li>
-                <i class="fas fa-star fa-sm text-info"></i>
-              </li>
-              <li>
-                <i class="fas fa-star fa-sm text-info"></i>
-              </li>
-            </ul>
             <p class="mb-2">
               <i class="fas fa-quote-left pe-2"></i>"Layanan meni-pedi di Salon Reirin membuat saya merasa seperti seorang ratu. Pelayanan teliti dan pijatan kaki yang menyegarkan. Saya akan merekomendasikan kepada teman-teman saya!"
             </p>
@@ -238,25 +150,8 @@ $user = Auth::user();
               <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(17).webp"
                 class="rounded-circle shadow-1-strong" width="100" height="100" />
             </div>
-            <h5 class="font-weight-bold">Rara Fitria</h5>
-            <h6 class="font-weight-bold my-3">Perawat</h6>
-            <ul class="list-unstyled d-flex justify-content-center">
-              <li>
-                <i class="fas fa-star fa-sm text-info"></i>
-              </li>
-              <li>
-                <i class="fas fa-star fa-sm text-info"></i>
-              </li>
-              <li>
-                <i class="fas fa-star fa-sm text-info"></i>
-              </li>
-              <li>
-                <i class="fas fa-star fa-sm text-info"></i>
-              </li>
-              <li>
-                <i class="far fa-star fa-sm text-info"></i>
-              </li>
-            </ul>
+            <h4 class="font-weight-bold"><strong>Rara Fitria</strong></h4>
+            <h6 class="font-weight-bold my-3">Perawat</h5>
             <p class="mb-2">
               <i class="fas fa-quote-left pe-2"></i>"Pelayanan potong rambut dan creambath di Salon Reirin luar biasa. Ahli potong rambut mendengarkan keinginan saya, dan creambath membuat rambut saya berkilau. Sangat direkomendasikan!"
             </p>
@@ -268,27 +163,7 @@ $user = Auth::user();
 <!-- </section>
 </div> -->
 
-<!-- <h1>Promo and Subscription!</h1>
-<div class="row row-cols-1 row-cols-md-2 g-4 " style="width: 650px;">
-        <div class="col">
-                <div class="card">
-                        <img src="pic\creator.jpg" class="card-img-top" style="width: 300px;">
-                        <div class="card-body">
-                                <h5 class="card-title">Irene Liana</h5>
-                                <p class="card-text">The founder of Reirin Salon, Irene Liana dedicated her hardwork in establishing a safe working enviournment</p>
-                        </div>
-                </div>
-        </div>
-        <div class="col">
-                <div class="card">
-                        <img src="pic\creator.jpg" class="card-img-top" style="width: 300px;" alt="...">
-                        <div class="card-body">
-                                <h5 class="card-title">Rinianti</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                </div>
-        </div>
-</div> -->
+
 
 <div class="container py-4">
     <div class="row d-flex justify-content-center">
@@ -303,37 +178,16 @@ $user = Auth::user();
         <div class="card border-dark">
           <div class="card-body py-4 mt-2">
             <div class="d-flex justify-content-center mb-4">
-              <!-- <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp"
-                class="rounded-circle shadow-1-strong" width="100" height="100" /> -->
                 <img src="{{$emp->employee_img}}" class="rounded-circle shadow-1-strong" width="100" height="100" alt="...">
             </div>
-            <h5 class="font-weight-bold">{{ $emp->employee_name }}</h5>
-            <h6 class="font-weight-bold my-3">{{ $emp->employee_role }}</h6>
-            <p class="mb-2">
-              <!-- <i class="fas fa-quote-left pe-2"></i>"Saya sangat puas dengan potong rambut dan creambath di Salon Reirin. Para ahli potong rambutnya sangat berbakat, dan creambath membuat rambut saya lembut dan sehat. Terima kasih, Reirin!" -->
-            </p>
+            <h4 class="font-weight-bold"><strong>{{ $emp->employee_name }}</strong></h4>
+            <h5 class="font-weight-bold my-3">{{ $emp->employee_role }}</h5>
           </div>
         </div>
       </div>
       @endforeach
     </div>
   </div>
-
-<!-- <h2>Employees</h2> -->
-<!-- <ul>
-        @foreach ($employee as $emp)
-                <li>{{ $emp->employee_name }}</li>
-        @endforeach
-</ul> -->
-
-<!-- test
-<h2>Promotions</h2>
-<ul>
-        @foreach ($promo as $pr)
-                <li>{{ $pr->promo_name }}</li>
-                <p>{{ $pr->promo_desc}}</p>
-        @endforeach
-</ul> -->
 
 <div class="container py-4">
     <div class="row d-flex justify-content-center">
@@ -349,15 +203,10 @@ $user = Auth::user();
         <div class="card border-dark">
           <div class="card-body py-4 mt-2">
             <div class="d-flex justify-content-center mb-4">
-              <!-- <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp"
-                class="rounded-circle shadow-1-strong" width="100" height="100" /> -->
                 <img src="{{$pr->promo_img}}" class="card-img-top" alt="...">
             </div>
-            <h5 class="font-weight-bold">{{ $pr->promo_name }}</h5>
-            <h6 class="font-weight-bold my-3">{{ $pr->promo_desc}}</h6>
-            <p class="mb-2">
-              <!-- <i class="fas fa-quote-left pe-2"></i>"Saya sangat puas dengan potong rambut dan creambath di Salon Reirin. Para ahli potong rambutnya sangat berbakat, dan creambath membuat rambut saya lembut dan sehat. Terima kasih, Reirin!" -->
-            </p>
+            <h4 class="font-weight-bold"><strong>{{ $pr->promo_name }}</strong></h5>
+            <h5 class="font-weight-bold my-3">{{ $pr->promo_desc}}</h5>
           </div>
         </div>
       </div>
@@ -376,11 +225,11 @@ $user = Auth::user();
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card border-dark h-100">
-      <img src="pic\artikel2.webp" class="card-img-top"
-        alt="..." />
+      <a href="https://www.sunsilk.co.id/kisah/ciri-ciri-rambut-rusak.html"><img src="pic\artikel2.webp" class="card-img-top"
+        alt="..." /></a>
       <div class="card-body">
         <p class="text-muted">Selasa, 19 Desember 2023</p>
-        <h4 class="card-title">Penyebab & Rekomendasi Shampo untuk Rambut Rusak jadi Sehat Berkilau!</h4>
+        <a href="https://www.sunsilk.co.id/kisah/ciri-ciri-rambut-rusak.html"><h4 class="card-title">Penyebab & Rekomendasi Shampo untuk Rambut Rusak jadi Sehat Berkilau!</h4></a>
         <p class="card-text">
         Sejak lahir, rambut muncul dengan kekuatan alaminya. Kemudian tumbuh menjadi remaja hingga dewasa, keberadaan rambut ini tergantung dari...
         </p>
@@ -392,11 +241,11 @@ $user = Auth::user();
   </div>
   <div class="col">
     <div class="card border-dark h-100">
-      <img src="pic\artikel1.webp" class="card-img-top"
-        alt="..." />
+      <a href="https://www.rudyhadisuwarno.id/post/blow-dry-rambut"><img src="pic\artikel1.webp" class="card-img-top"
+        alt="..." /></a>
       <div class="card-body">
         <p class="text-muted">Selasa, 19 Desember 2023</p>
-        <h4 class="card-title font-weight-bold">Apa itu Blow Dry? Ini dia segala hal yang Perlu Kamu Ketahui</h4>
+        <a href="https://www.rudyhadisuwarno.id/post/blow-dry-rambut"><h4 class="card-title font-weight-bold">Apa itu Blow Dry? Ini dia segala hal yang Perlu Kamu Ketahui</h4></a>
         <p class="card-text">Apa Itu Blow Dry? Apa itu blow dry adalah sesuatu pertanyaan yang kurang lebih sering ditanyakan dalam dunia tata rambut. Blow dry adalah...
         </p>
       </div>
@@ -407,11 +256,11 @@ $user = Auth::user();
   </div>
   <div class="col">
     <div class="card border-dark h-100">
-      <img src="pic\artikel3.webp" class="card-img-top"
-        alt="..." />
+      <a href="<h4 class="card-title"><img src="pic\artikel3.webp" class="card-img-top"
+        alt="..." /></a>
       <div class="card-body">
         <p class="text-muted">Selasa, 19 Desember 2023</p>
-        <h4 class="card-title">Kursus Gunting Rambut: 5 Keuntungan yang Wajib Kamu Tahu!</h4>
+        <a href="https://www.rudyhadisuwarno.id/post/keuntungan-kursus-potong-rambut"><h4 class="card-title">Kursus Gunting Rambut: 5 Keuntungan yang Wajib Kamu Tahu!</h4></a>
         <p class="card-text">
         Kursus gunting rambut adalah salah satu kursus yang sedang ngetren belakangan ini. Selain harganya yang bervariasi, pengajar kursus...
         </p>

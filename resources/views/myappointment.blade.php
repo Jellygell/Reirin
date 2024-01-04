@@ -26,12 +26,39 @@ $user = Auth::user();
             <p class="card-text">{{ $myap->appstatus->appstatus_name }}</p> -->
 
             <div class="card-header d-flex justify-content-between">
-                <h4 class="card-title">{{ $myap->appointment_id }}</h4>
-                <h4 class="card-text text-success">{{ $myap->appstatus->appstatus_name }}</h4>
+                <h5 class="card-title">{{ $myap->appointment_id }}</h5>
+                <p class="card-text text-success">{{ $myap->appstatus->appstatus_name }}</p>
             </div>
-            <h4 class="text-body-secondary">Service: {{ $myap->employeeService->service->service_name }}</h4>
+            <!-- test -->
+            <div>
+                <div class="row">
+                    <div class="col-sm-2">
+                        <h4 class="mb-0">Service</h4>
+                    </div>
+                    <div class="col-sm-9">
+                        <h4 class="text-muted mb-0">: {{ $myap->employeeService->service->service_name }}</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-2">
+                        <h4 class="mb-0">Date</h4>
+                    </div>
+                    <div class="col-sm-9">
+                        <h4 class="text-muted mb-0">: {{ $myap->employeeService->date_available }}</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-2">
+                        <h4 class="mb-0">Time</h4>
+                    </div>
+                    <div class="col-sm-9">
+                        <h4 class="text-muted mb-0">: {{ $myap->employeeService->time_available }}</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- <h4 class="text-body-secondary">Service: {{ $myap->employeeService->service->service_name }}</h4>
             <h4 class="text-body-secondary">Date: {{ $myap->employeeService->date_available }}</h4>
-            <h4 class="text-body-secondary">Payment Type: {{ $myap->payment->payment_type_name }}</h4>
+            <h4 class="text-body-secondary">Payment Type: {{ $myap->payment->payment_type_name }}</h4> -->
         </div>
         <!-- <div class="card-footer">
             <small class="text-body-secondary">{{ $myap->employeeService->date_available }}</small>
@@ -39,8 +66,6 @@ $user = Auth::user();
         <button type="submit" class="btn btn-primary">Detail</button>
     </div>
 </form>
-<br>
-<br>
 <br>
 <br>
 @endforeach

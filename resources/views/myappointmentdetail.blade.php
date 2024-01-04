@@ -18,6 +18,10 @@
                 <h4 class="card-text mx-4">{{ $detailappointment->employeeService->date_available }}</h4>
             </div>
             <div class="d-flex justify-content-between">
+                <h4 class="card-text mx-4">Time:</h4>
+                <h4 class="card-text mx-4">{{ $detailappointment->employeeService->time_available }}</h4>
+            </div>
+            <div class="d-flex justify-content-between">
                 <h4 class="card-text mx-4">Employee: </h4>
                 <h4 class="card-text mx-4">{{ $detailappointment->employeeService->employee->employee_name }}</h4>
             </div>    

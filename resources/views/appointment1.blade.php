@@ -11,12 +11,32 @@
                 <div class="d-flex flex-row-reverse">
                     <h4 class="text-danger">Rp. {{ $selectedService->service_price }}</h4>
                 </div>
-                <div class="d-flex flex-row">
+                <!-- <div class="d-flex flex-row">
                     <h4 class="mb-5">{{ $selectedService->service_desc }}</h4>
-                </div>
+                </div> -->
         </div>
 
-      <div class="col-lg-4 col-md-12 mb-4">
+<section class="py-3 py-md-5">
+  <div class="container">
+    <div class="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
+      <div class="col-12 col-lg-6 col-xl-5">
+        <img class="img-fluid rounded" loading="lazy" src="{{ $selectedService->service_img }}" alt="About 1">
+      </div>
+      <div class="col-12 col-lg-6 col-xl-7">
+        <div class="row justify-content-xl-center">
+          <div class="col-12 col-xl-11">
+            <!-- <p class="lead fs-4 text-secondary mb-3">We help people to build incredible brands and superior products. Our perspective is to furnish outstanding captivating services.</p> -->
+            <!-- <div class="col-md-10"> -->
+                <h4 class="mb-5">{{ $selectedService->service_desc }}</h4>
+            <!-- </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <!-- <div class="col-lg-4 col-md-12 mb-4">
         <div class="bg-image">
           <img src="pic\gallery_1.png"
             class="w-100" />
@@ -35,7 +55,7 @@
           <img src="pic\gallery_3.png"
             class="w-100" />
         </div>
-      </div>
+      </div> -->
 </div>
 
 <!-- <div class="card">

@@ -37,7 +37,7 @@ $user = Auth::user();
                                         <h5 class="text-danger mb-0 me-3 mt-4">Rp. {{ $service->service_price }}</h5>
                                 </div>
                                 <!-- <h3 class="card-title">{{ $service->service_name }}</h3> -->
-                                <p class="card-text mx-3 mb-4">{{ $service->service_desc }}</p>
+                                <p class="card-text mx-3 mb-4 d-inline-block text-truncate" style="max-width: 300px;">{{ $service->service_desc }}</p>
                         </div>
                         <!-- <div class="card-footer">
                                 <small class="text-body-secondary">{{ $service->service_price }}</small>
