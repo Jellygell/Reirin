@@ -99,30 +99,18 @@
         <button type="submit" class="btn btn-primary btn-lg my-4">Submit</button>
     </form>
     <script type="text/javascript">
-        $(function() {
-            $('#picker').datetimepicker({
-
-                defaultDate: moment(),
-                minDate: moment().subtract(1, 'days'),
-                stepping: 30,
-                daysOfWeekDisabled: [0],
-                defaultDate: moment().set({
-                    hour: 9,
-                    minute: 30
-                }),
-                inline: true,
-                sideBySide: true,
-            }).on('dp.change', function(e) {
-                // Handle change event
-                var selectedHour = e.date.hour();
-                if (selectedHour < 9 || selectedHour > 15) {
-                    // If the selected hour is outside the range 9-15, reset to the nearest valid hour
-                    var nearestHour = (selectedHour < 9) ? 9 : 15;
-                    $(this).data('DateTimePicker').date(e.date.set('hour', nearestHour).set('minute', 0));
-                }
-            });
+    $(function() {
+        $('#picker').datetimepicker({
+            minDate: moment().subtract(1, 'days'),
+            stepping: 30,
+            daysOfWeekDisabled: [0],
+            defaultDate: moment(),
+            inline: true,
+            sideBySide: true,
+            format: 'YYYY-MM-DD' // <-- add this line
         });
-    </script>
+    });
+</script>
 </div>
 
 @if($employee)

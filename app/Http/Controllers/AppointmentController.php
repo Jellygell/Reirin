@@ -52,8 +52,8 @@ class AppointmentController extends Controller
         $chosenDate = $request->input('chosenDate');
         $selectedServiceId = $request->session()->get('selected_service');
         $selectedService = Service::where('service_id', $selectedServiceId)->first();
-        $formattedDate = Carbon::createFromFormat('m/d/Y h:i A', $chosenDate)->format('Y-m-d');
-        $emp = EmployeeService::where('date_available', $formattedDate)->where('is_available', true)->where('service_id', $selectedServiceId)->get();
+        // $formattedDate = Carbon::createFromFormat('m/d/Y h:i A', $chosenDate)->format('Y-m-d');
+        $emp = EmployeeService::where('date_available', $chosenDate)->where('is_available', true)->where('service_id', $selectedServiceId)->get();
         $request->session()->put('selected_date', $chosenDate);
         return view('appointment1', [
             'selectedService' => $selectedService,
