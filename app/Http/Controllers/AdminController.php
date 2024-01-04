@@ -58,7 +58,7 @@ class AdminController extends Controller
     }
     public function changeAppStatus(Request $request)
     {
-        $selectedApp = $request->input('appointmentId');
+        $selectedApp = $request->input('appointment_id');
         $appointment = Appointment::where('appointment_id', $selectedApp)->first();
         //Appointment::where('appointment_id', $selectedApp)->update(['appstatus_id' => 2]);
         if($appointment->appstatus_id += 1 >= 5){

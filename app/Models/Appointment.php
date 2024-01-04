@@ -11,6 +11,7 @@ class Appointment extends Model
 
     protected $table = 'appointments';
     protected $primaryKey = 'appointment_id';
+    protected $guarded = '';
     protected $keyType = 'string';
     public $incrementing = false;
     public function appstatus()
